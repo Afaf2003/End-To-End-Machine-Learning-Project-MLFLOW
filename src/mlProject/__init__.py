@@ -21,3 +21,5 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",  # Specify the log format
     level=logging.INFO,  # Set the logging level to INFO (logs INFO and higher levels)
 )
+
+logger = logging.getLogger("mlProjectLogger")
